@@ -32,6 +32,6 @@ Before you run this app, you must already installed Node.js in your computer as 
 
 0) Download this app
 1) Open terminal and go to fitd directory
-2) Type `npm run dev`
-3) go to fitd-tech-client directory
-4) Type `npm run start`
+2) Type command `npm run dev`
+3) Go to fitd-tech-client directory
+4) Type command `npm run start`
