@@ -1,0 +1,60 @@
+.coachImg {
+	transition: all 0.2s linear;
+}
+
+.coachImg:hover {
+	transform: scale(1.1);
+}
+
+.coachingProfileCard {
+	margin: 30px 20px;
+	display: flex;
+	flex: 1;
+	border-radius: 10px;
+	height: 620px;
+	width: 350px;
+}
+.cardActionArea {
+	height: 100%;
+	padding: 0 20px;
+}
+
+.cardContent {
+	height: 85%;
+}
+.cardActions {
+	height: 15%;
+	padding-bottom: 10px;
+}
+
+.coachName {
+	margin: 10px 0;
+}
+.coachCategories {
+	margin: 10px 0;
+}
+
+.coachIntro {
+	margin-top: 20px;
+	/* margin-left: 20px;
+    margin-right: 20px; */
+	color: #6e84a3;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.coachLeanMoreButton {
+	background-color: #f1b175;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 4px;
+}
+
+.coachLeanMoreButton:hover {
+	color: #fff;
+	background-color: #f89230;
+	transition: all 0.2s ease-out;
+}

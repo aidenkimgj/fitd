@@ -1,0 +1,12 @@
+#node
+node_modules
+
+#history
+.history
+
+#env
+.env
+
+
+
+

@@ -1,0 +1,211 @@
+.CoachDetailPage {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 30px;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+.left {
+	padding: 10px 40px;
+	width: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.right {
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 100px;
+	justify-content: space-between;
+}
+
+.leftImg {
+	display: flex;
+}
+
+.leftImg > img {
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto 25px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.leftName {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+}
+.leftExpertise {
+	max-width: 100px;
+	margin-bottom: 10px;
+	color: #394649;
+	font-weight: 400;
+	font-size: 15px;
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+	line-height: 20px;
+}
+
+.leftSubscribeBtn {
+	margin-bottom: 10px;
+	background-color: #f1b175;
+	border: none;
+	text-decoration: none;
+	padding: 5px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	border-radius: 4px;
+	width: 170px;
+}
+
+.bookBtn {
+	font-weight: bold;
+    width: 100%;
+}
+
+.leftSubscribeBtn > button {
+	background: none;
+	border: none;
+	color: white;
+}
+
+.leftSubscribeBtn > button:hover {
+	cursor: pointer;
+}
+
+.leftSubscribeBtn:hover {
+	color: #fff;
+	background-color: #f89230;
+	transition: all 0.2s ease-out;
+	cursor: pointer;
+}
+
+.leftBottom {
+	width: 100%;
+	border-top: 1px solid #dcdee1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 15px;
+}
+
+.leftEmail {
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+}
+
+.leftSotialLinks {
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.leftSotialLinks div {
+	cursor: pointer;
+}
+
+.righTopTitle {
+	font-weight: 700;
+	margin-bottom: 40px;
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+}
+
+.rightIntroduction {
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+	letter-spacing: 0.2px;
+	vertical-align: baseline;
+}
+
+.rightMiddleTitle {
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+}
+
+.btnFlex {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rightBottomTitle {
+	font-weight: 700;
+	/* margin-top: 120px; */
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+}
+
+.rightBottomSubTitle {
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+}
+
+.on {
+	margin-top: 10px;
+	background: none;
+	border: none;
+	font-size: 20px;
+}
+
+.on:hover {
+	color: #f1b175;
+	cursor: pointer;
+}
+
+.off {
+	margin-top: 10px;
+	background: none;
+	border: none;
+	font-size: 20px;
+}
+
+.rightReviewsTitle {
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'gt walsheim pro', helvetica, arial, sans-serif;
+}
+
+.reviews {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.reviewTop {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.creatorName {
+	font-weight: bolder;
+}
+
+
+.rightTop{
+    margin-bottom: 30px;
+}
+
+.rightMiddle{
+ margin-bottom: 30px;
+}
+.rightReviews{
+ margin-bottom: 30px;
+}
+.rightBottom{
+ margin-bottom: 30px;
+}
+
+.rightBottomRating{
+    margin-top: 30px;
+}

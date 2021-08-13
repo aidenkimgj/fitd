@@ -1,0 +1,10 @@
+.coachCategory {
+    background-color: #000000da;
+    color: #fffdfc;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 2px;
+    font-size: 15px;
+}

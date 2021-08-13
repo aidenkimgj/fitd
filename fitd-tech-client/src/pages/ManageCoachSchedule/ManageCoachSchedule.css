@@ -1,0 +1,23 @@
+.manageCoachSchdule-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.manageCoachSchdule-title{
+    font-size: 30px;
+	font-weight: bold;
+	color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.manageCoachSchdule-scheduler{
+    width: 100%;
+}
+
+.manageCoachSchdule-btn{
+    margin-bottom: 30px;
+}

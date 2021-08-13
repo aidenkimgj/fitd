@@ -1,0 +1,45 @@
+
+.adminDropdown > button:hover{
+    background-color: #F89230;
+}
+
+#dropdown{
+    height: 40px;
+    font-size: 0.875rem;
+}
+
+.defaultAdminDropDown > button{
+      transition: all 0.7s ease-in-out;
+    background-color: #f1b175;
+    color: white;
+}
+
+.scrollDownAdminDropDown > button{
+            background-color: #292828f3;
+      transition: all 0.7s ease-in-out;
+    color: white;
+}
+
+.dropdown-menu.show{
+    border-radius: 5px;
+    background-color: #000;
+    padding: 10px;
+}
+
+.dropdown-menu.show a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.dropdown-menu.show a:nth-child(1):hover{
+    color: #F89230;
+}
+
+.dropdown-menu.show a:nth-child(2):hover{
+    color: #F89230;
+}
+
+.dropdown-menu.show a:nth-child(3):hover{
+    color: #F89230;
+}

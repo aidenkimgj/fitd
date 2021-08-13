@@ -1,0 +1,91 @@
+.Coaching {
+	margin: 50px 50px;
+}
+
+.flex-header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.coaching_header {
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.coachingCards {
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	justify-items: center;
+}
+
+.coachbtn {
+	font-size: 20px;
+	padding: 7px 20px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	white-space: nowrap;
+	background-color: #ffa24b;
+	color: #fff;
+}
+
+.coachbtn:hover {
+	color: #fff;
+	background-color: #f89230;
+	transition: all 0.2s ease-out;
+}
+
+.container-search_btn {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 4%;
+}
+
+.search-box {
+	padding: 10px;
+	width: 300px;
+	height: 30px;
+	border-radius: 30px;
+	border: 1px solid #f89230;
+	transition: 0.5s;
+}
+
+.search-box:hover {
+	box-shadow: 0 0 0.5px 1px #f89230;
+}
+
+.search-txt {
+	padding: 0;
+	width: 0px;
+	border: none;
+	outline: none;
+	float: left;
+	font-size: 1rem;
+	line-height: 30px;
+	transition: 0.4s;
+}
+
+.search-box:hover > .search-txt {
+	padding: 0 6px;
+	width: 240px;
+}
+
+.search-btn {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	color: #f89230;
+}
+
+::placeholder {
+	color: #f89230;
+}

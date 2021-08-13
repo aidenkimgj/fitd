@@ -1,0 +1,50 @@
+{
+  "name": "fitd-tech-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-watch fitd-tech-server/server.js",
+    "prebuild": "cd fitd-tech-client && npm run build",
+    "build": "babel fitd-tech-server --out-dir build "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidenkimgj/fitd-tech-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidenkimgj/fitd-tech-server/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.922.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.1.2",
+    "googleapis": "^76.0.0",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.13",
+    "nodemailer": "^6.6.1",
+    "path": "^0.12.7",
+    "react-google-login": "^5.2.2",
+    "stripe": "^8.165.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.4",
+    "babel-watch": "^7.4.1",
+    "morgan": "^1.10.0"
+  }
+}

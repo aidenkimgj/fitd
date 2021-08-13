@@ -1,0 +1,82 @@
+.manageUserPage{
+    padding: 20px;
+}
+.manageUserHeader {
+    text-align: center;
+}
+
+.manageUserTable {
+    margin: 40px auto;
+}
+
+.MuiTableRow-head{
+    background-color: #000000fa;
+}
+.MuiTableRow-head >th {
+    color: white;
+}
+
+.manageUser_userimg {
+    width: 40px;
+}
+
+
+th{
+    width: 200px;
+}
+.even {
+    background-color: #000000bc;
+}
+.even > td {
+    color: white;
+    border-bottom: none;
+}
+
+.even > th {
+    color: white;
+    border-bottom: none;
+}
+
+.odd {
+    background-color: #000000d7;
+}
+
+.odd > td {
+    color: white;
+    border-bottom: none;
+}
+.odd > th {
+    color: white;
+    border-bottom: none;
+}
+
+.manageUserDesc:hover{
+    color: #3b91d8;
+    cursor: pointer;
+}
+
+.manageUserDeleteIcon:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+ @media screen and (max-width: 960px) {
+     .manageUserTable th{
+        font-size: 10px;
+     }
+     .manageUserTable td{
+        font-size:10px;
+     }
+     .manageUserTable img{
+        width: 20px;
+     }
+  }
+  
+  @media screen and (max-width: 768px) {
+
+  }

@@ -1,0 +1,33 @@
+.inner_application > h1{
+    text-align: center;
+}
+
+.inner_application{
+}
+
+.inner_application > div{
+    margin-bottom: 10px;
+}
+
+.inner_application > div:nth-child(2){
+    text-align: end;
+    font-weight: bolder;
+    
+}
+
+.inner_application > div > h3{
+    margin-left: 20px;
+}
+
+.approveBtn_outter{
+    display: flex;
+    justify-content: center;
+}
+.appoveBtn{
+    font-weight: bolder;
+}
+
+.appoveBtn:hover{
+    color: #F89230;
+    cursor: pointer;
+}
